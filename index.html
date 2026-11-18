@@ -1,155 +1,311 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
+
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta name="theme-color" content="#C2307A">
+
   <!-- ANTES DE PUBLICAR: [ ] fotos/nomes/preços no products.json  [ ] textos de entrega e horário (seção #local)
-       [ ] domínio real no canonical/og:url/og:image (trocar SEU-DOMINIO.com.br)  [ ] revisar pin do Google Maps
-       [ ] converter fundo.png/fundo-mobile.png para .webp e trocar no style.css  [ ] apagar fundo.js, performance.css, image.png -->
+
+       [ ] revisar pin do Google Maps  [ ] converter fundo.png/fundo-mobile.png para .webp e trocar no style.css
+
+       [ ] apagar fundo.js, performance.css e image.png, se não forem utilizados -->
+
   <title>Closet da Sukita — Moda Feminina em São Gonçalo</title>
+
   <meta name="description" content="Moda feminina com carinho: vestidos, conjuntos e muito mais. Peça pelo WhatsApp, receba em casa ou visite a loja no Apollo 2, Marambaia — São Gonçalo/RJ.">
+
   <link rel="icon" href="assets/icon.jpg">
-  <!-- TROCAR pelo domínio real: <link rel="canonical" href="https://SEU-DOMINIO.com.br/"> -->
-  <!-- TROCAR: <meta property="og:url" content="https://SEU-DOMINIO.com.br/"> e og:image absoluto: https://SEU-DOMINIO.com.br/assets/og-image.png -->
+
+  <link rel="canonical" href="https://camposeb.github.io/Closet_da_sukita/">
+
+  <!-- Prévia ao compartilhar o site (WhatsApp, Facebook etc.) -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Closet da Sukita">
   <meta property="og:title" content="Closet da Sukita — Vista-se de Amor">
-  <meta property="og:description" content="Moda feminina em São Gonçalo. Veja o catálogo e peça pelo WhatsApp.">
-  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:description" content="Moda feminina em São Gonçalo. Veja nosso catálogo e peça pelo WhatsApp.">
+  <meta property="og:url" content="https://camposeb.github.io/Closet_da_sukita/">
+  <meta property="og:image" content="https://camposeb.github.io/Closet_da_sukita/assets/og-image.webp">
+  <meta property="og:image:secure_url" content="https://camposeb.github.io/Closet_da_sukita/assets/og-image.webp">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Closet da Sukita — Vista-se de Amor">
+  <meta name="twitter:description" content="Moda feminina em São Gonçalo. Veja nosso catálogo e peça pelo WhatsApp.">
+  <meta name="twitter:image" content="https://camposeb.github.io/Closet_da_sukita/assets/og-image.webp">
+
   <link rel="preload" as="image" href="assets/roupa-1.jpg" fetchpriority="high">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css?v=4">
+
   <script type="application/ld+json">
+
   {"@context":"https://schema.org","@type":"ClothingStore","name":"Closet da Sukita","description":"Loja de moda feminina com vendas presenciais e online.","telephone":"+55 21 99712-5990","image":"assets/icon.jpg",
+
    "address":{"@type":"PostalAddress","streetAddress":"R. Samuel Pereira Brant, 39, loja 02 (Apollo 2)","addressLocality":"São Gonçalo","addressRegion":"RJ","postalCode":"24727-202","addressCountry":"BR"},
+
    "sameAs":["https://www.instagram.com/closet_da_sukita/"]}
+
   </script>
+
 </head>
+
 <body>
+
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+
   <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.94L.06 24l6.31-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9a11.82 11.82 0 0 0-3.48-8.41"/></symbol>
+
   <symbol id="ig" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm5 5.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.2-2.2h.01"/></symbol>
+
   <symbol id="pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21zm0-8.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></symbol>
+
   <symbol id="bag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M5 8h14l-1 12H6L5 8zm4 0V7a3 3 0 0 1 6 0v1"/></symbol>
+
   <symbol id="tag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M3 12V4h8l10 10-8 8L3 12zm5-5h.01"/></symbol>
+
   <symbol id="swap" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M4 8h14l-3-3m5 11H6l3 3"/></symbol>
+
 </svg>
 
+
+
 <header class="header">
+
   <div class="container">
+
     <a class="brand" href="index.html#inicio" aria-label="Closet da Sukita — início"><img src="assets/icon.jpg" alt="" width="44" height="44">Closet da Sukita</a>
+
     <nav class="nav" id="menu" aria-label="Menu principal">
+
       <a href="index.html#inicio">Início</a>
+
       <a href="index.html#catalogo">Catálogo</a>
+
       <a href="index.html#info">Entrega e pagamento</a>
+
       <a href="index.html#local">Como chegar</a>
+
       <a class="btn btn--p" data-wa href="#"><svg aria-hidden="true"><use href="#wa"/></svg>WhatsApp</a>
+
     </nav>
+
     <button class="menu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">☰</button>
+
   </div>
+
 </header>
 
+
+
 <main>
+
   <section class="hero" id="inicio">
+
     <div class="container">
+
       <div class="hero__txt">
+
         <h1>Vista-se de amor.</h1>
+
         <p>Moda feminina escolhida com carinho, no Apollo 2, em São Gonçalo. Escolha sua peça favorita e peça pelo WhatsApp, com entrega em casa ou retirada na loja.</p>
+
         <div class="acts">
+
           <a class="btn btn--p" data-wa href="#"><svg aria-hidden="true"><use href="#wa"/></svg>Falar no WhatsApp</a>
+
           <a class="btn btn--g" href="#catalogo">Ver catálogo</a>
+
         </div>
+
         <ul class="perks">
+
           <li><svg aria-hidden="true"><use href="#bag"/></svg>Entrega em casa</li>
+
           <li><svg aria-hidden="true"><use href="#pin"/></svg>Retire na loja</li>
+
           <li><svg aria-hidden="true"><use href="#wa"/></svg>Atendimento pelo WhatsApp</li>
+
         </ul>
+
       </div>
+
       <div class="hero__img"><img src="assets/roupa-1.jpg" alt="Vestidos off white da coleção Closet da Sukita" width="800" height="1000" fetchpriority="high"></div>
+
     </div>
+
   </section>
+
+
 
   <section class="sec" id="catalogo">
+
     <div class="container">
+
       <div class="head">
+
         <h2 class="title">Encontre seu próximo look</h2>
+
         <p class="sub">Peças escolhidas para valorizar seu estilo. Gostou de alguma? Consulte disponibilidade diretamente pelo WhatsApp.</p>
+
       </div>
+
       <div class="pills" id="filtros" role="group" aria-label="Filtrar por categoria"></div>
+
       <div class="grid" id="grid" aria-live="polite"></div>
+
       <noscript><p class="vazio">Para ver o catálogo, ative o JavaScript ou <a href="https://wa.me/5521997125990" rel="noopener noreferrer">chame a gente no WhatsApp</a>.</p></noscript>
+
       <p class="more">Não achou o que procurava? <a data-wa href="#">Chame no WhatsApp</a> ou veja as novidades no <a href="https://www.instagram.com/closet_da_sukita/" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+
     </div>
+
   </section>
+
+
 
   <section class="sec alt" id="info">
+
     <div class="container">
+
       <div class="head"><h2 class="title">Entrega, pagamento e troca</h2><p class="sub">Compre com conforto e pague como preferir.</p></div>
+
       <div class="info">
+
         <div class="box"><span class="ico"><svg aria-hidden="true"><use href="#bag"/></svg></span><h3>Entrega</h3>
+
           <!-- TODO ENTREGA: ainda sem texto oficial. Conferir com a cliente: bairros atendidos, prazo e valor. Não inventar regras. -->
+
           <p>Entregamos em casa. Consulte região, prazo e valor pelo WhatsApp.</p>
+
           <p>Prefere ver ao vivo? Retire na loja, no Apollo 2.</p></div>
+
         <div class="box"><span class="ico"><svg aria-hidden="true"><use href="#tag"/></svg></span><h3>Pagamento</h3>
+
           <ul class="list">
+
             <li><strong>Dinheiro:</strong> 5% de desconto no pagamento em dinheiro.</li>
+
             <li><strong>Cartão:</strong> crédito e débito, parcele em até 12x (consulte condições).</li>
+
             <li><strong>Pix:</strong> rápido, fácil e seguro.</li>
+
           </ul></div>
+
         <div class="box"><span class="ico"><svg aria-hidden="true"><use href="#swap"/></svg></span><h3>Troca</h3>
+
           <ul class="list">
+
             <li>Solicite a troca em até <strong>5 dias corridos</strong> após a compra.</li>
+
             <li>Não trocamos peças com mau cheiro, lavadas, com marcas de uso ou sujas.</li>
+
             <li>Não devolvemos o valor: a troca é por outras peças da loja.</li>
+
             <li>Não trocamos modal, tricô, paetê, couro sintético, brancas e rendas.</li>
+
             <li>Peças de liquidação não têm troca.</li>
+
             <li>Em troca com envio, a taxa de envio fica por conta do cliente.</li>
+
           </ul></div>
+
       </div>
+
     </div>
+
   </section>
+
+
 
   <section class="sec" id="local">
+
     <div class="container loc">
+
       <div>
+
         <h2 class="title">Venha nos visitar</h2>
+
         <ul>
+
           <li><svg aria-hidden="true"><use href="#pin"/></svg><div><strong>Endereço</strong>R. Samuel Pereira Brant, 39, loja 02 (Apollo 2)<br>Marambaia, São Gonçalo — RJ, 24727-202</div></li>
+
           <li><svg aria-hidden="true"><use href="#wa"/></svg><div><strong>WhatsApp</strong><a href="https://wa.me/5521997125990" target="_blank" rel="noopener noreferrer">(21) 99712-5990</a></div></li>
+
           <li><svg aria-hidden="true"><use href="#ig"/></svg><div><strong>Instagram</strong><a href="https://www.instagram.com/closet_da_sukita/" target="_blank" rel="noopener noreferrer">@closet_da_sukita</a></div></li>
+
           <!-- HORÁRIO: trocar pelo horário real quando a cliente confirmar -->
+
           <li><svg aria-hidden="true"><use href="#tag"/></svg><div><strong>Horário</strong>Atendemos até às 19h. Confirme os dias pelo WhatsApp.</div></li>
+
         </ul>
+
         <a class="btn btn--p" href="https://maps.app.goo.gl/AWoXA3aupjz89BMb6" target="_blank" rel="noopener noreferrer">Abrir no Google Maps</a>
+
       </div>
+
       <!-- CONFERIR PIN: o local no Google Maps aparece como Itaboraí; validar com a cliente -->
+
       <iframe class="map" title="Mapa da loja Closet da Sukita" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+
         src="https://www.google.com/maps?q=R.+Samuel+Pereira+Brant,+39,+Marambaia,+S%C3%A3o+Gon%C3%A7alo+-+RJ&output=embed"></iframe>
+
     </div>
+
   </section>
+
 </main>
 
+
+
 <footer class="footer">
+
   <div class="container fgrid">
+
     <div class="fbrand">
+
       <a class="brand" href="index.html#inicio"><img src="assets/icon.jpg" alt="" width="44" height="44" loading="lazy">Closet da Sukita</a>
+
       <p>Moda feminina escolhida com carinho, no Apollo 2, em São Gonçalo. Vista-se de amor.</p>
+
     </div>
+
     <nav aria-label="Rodapé"><h3>Navegue</h3>
+
       <a href="index.html#inicio">Início</a><a href="index.html#catalogo">Catálogo</a><a href="index.html#info">Entrega e pagamento</a><a href="index.html#local">Como chegar</a></nav>
+
     <div><h3>Fale com a gente</h3>
+
       <a data-wa href="#"><svg aria-hidden="true"><use href="#wa"/></svg>(21) 99712-5990</a>
+
       <a href="https://www.instagram.com/closet_da_sukita/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#ig"/></svg>@closet_da_sukita</a>
+
       <a href="https://maps.app.goo.gl/AWoXA3aupjz89BMb6" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#pin"/></svg>Apollo 2, loja 02 · Marambaia</a></div>
+
   </div>
+
   <p class="copy">© <span id="ano">2026</span> Closet da Sukita. Todos os direitos reservados.</p>
+
 </footer>
+
 <a class="wa-float" data-wa href="#" aria-label="Falar com o Closet da Sukita no WhatsApp"><svg aria-hidden="true"><use href="#wa"/></svg></a>
+
 <script src="script.js?v=4" defer></script>
+
 </body>
+
 </html>
