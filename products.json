@@ -2,13 +2,125 @@
   "updated": "2026-11-18",
   "note": "EDITAR: nome, categoria, preço (número ou texto), sizes, badge (ex.: Novo, Promoção), oldPrice (preço antigo, opcional) e soldOut (true = esgotado). Categorias novas aparecem sozinhas nos filtros.",
   "products": [
-    {"id":"CS-001","name":"Vestidos Off White","category":"vestidos","price":"","oldPrice":"","sizes":[],"badge":"Novo","soldOut":false,"image":"assets/roupa-1.jpg","alt":"Quatro vestidos off white em manequins"},
-    {"id":"CS-002","name":"Modelo 02","category":"vestidos","price":"","oldPrice":"","sizes":[],"badge":"","soldOut":false,"image":"assets/roupa-2.jpg","alt":"Peça da coleção Closet da Sukita"},
-    {"id":"CS-003","name":"Modelo 03","category":"conjuntos","price":"","oldPrice":"","sizes":[],"badge":"","soldOut":false,"image":"assets/roupa-3.jpg","alt":"Peça da coleção Closet da Sukita"},
-    {"id":"CS-004","name":"Modelo 04","category":"vestidos","price":"","oldPrice":"","sizes":[],"badge":"","soldOut":false,"image":"assets/roupa-4.jpg","alt":"Peça da coleção Closet da Sukita"},
-    {"id":"CS-005","name":"Modelo 05","category":"conjuntos","price":"","oldPrice":"","sizes":[],"badge":"","soldOut":false,"image":"assets/roupa-5.jpg","alt":"Peça da coleção Closet da Sukita"},
-    {"id":"CS-006","name":"Modelo 06","category":"vestidos","price":"","oldPrice":"","sizes":[],"badge":"","soldOut":false,"image":"assets/roupa-6.jpg","alt":"Peça da coleção Closet da Sukita"},
-    {"id":"CS-007","name":"Modelo 07","category":"conjuntos","price":"","oldPrice":"","sizes":[],"badge":"","soldOut":false,"image":"assets/roupa-7.jpg","alt":"Peça da coleção Closet da Sukita"},
-    {"id":"CS-008","name":"Modelo 08","category":"conjuntos","price":"","oldPrice":"","sizes":[],"badge":"","soldOut":false,"image":"assets/roupa-8.jpg","alt":"Peça da coleção Closet da Sukita"}
+    {
+      "id": "CS-001",
+      "name": "Vestidos Off White",
+      "category": "vestidos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "Novo",
+      "soldOut": false,
+      "image": "assets/roupa-1.jpg",
+      "alt": "Quatro vestidos off white em manequins"
+    },
+    {
+      "id": "CS-002",
+      "name": "Modelo 02",
+      "category": "vestidos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-2.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-003",
+      "name": "Modelo 03",
+      "category": "conjuntos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-3.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-004",
+      "name": "Modelo 04",
+      "category": "vestidos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-4.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-005",
+      "name": "Modelo 05",
+      "category": "conjuntos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-5.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-006",
+      "name": "Modelo 06",
+      "category": "vestidos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-6.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-007",
+      "name": "Modelo 07",
+      "category": "conjuntos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-7.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-008",
+      "name": "Modelo 08",
+      "category": "conjuntos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-8.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-009",
+      "name": "Modelo 09",
+      "category": "vestidos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-9.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    },
+    {
+      "id": "CS-010",
+      "name": "Modelo 10",
+      "category": "conjuntos",
+      "price": "",
+      "oldPrice": "",
+      "sizes": [],
+      "badge": "",
+      "soldOut": false,
+      "image": "assets/roupa-10.jpg",
+      "alt": "Peça da coleção Closet da Sukita"
+    }
   ]
 }
